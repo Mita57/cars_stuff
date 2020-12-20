@@ -58,5 +58,24 @@ namespace Cars
             AddOwnerInfo sas = new AddOwnerInfo();
             sas.Show();
         }
+
+
+        private void button8_Click_1(object sender, EventArgs e)
+        {
+            RemoveEmployee sas = new RemoveEmployee();
+            sas.Show();
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            ChangeNumber sas = new ChangeNumber();
+            sas.Show();
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            MalfunctionCertificate sas = new MalfunctionCertificate();
+            sas.Show();
+        }
     }
 }

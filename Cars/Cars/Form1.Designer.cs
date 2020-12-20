@@ -207,13 +207,12 @@ namespace Cars
             // groupBox8
             // 
             this.groupBox8.Controls.Add(this.button8);
-            this.groupBox8.Location = new System.Drawing.Point(340, 101);
+            this.groupBox8.Location = new System.Drawing.Point(340, 92);
             this.groupBox8.Name = "groupBox8";
             this.groupBox8.Size = new System.Drawing.Size(241, 74);
             this.groupBox8.TabIndex = 3;
             this.groupBox8.TabStop = false;
             this.groupBox8.Text = "Удалить работника";
-            this.groupBox8.UseWaitCursor = true;
             // 
             // button8
             // 
@@ -223,18 +222,17 @@ namespace Cars
             this.button8.TabIndex = 0;
             this.button8.Text = "Нажми меня";
             this.button8.UseVisualStyleBackColor = true;
-            this.button8.UseWaitCursor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click_1);
             // 
             // groupBox9
             // 
             this.groupBox9.Controls.Add(this.button9);
-            this.groupBox9.Location = new System.Drawing.Point(340, 181);
+            this.groupBox9.Location = new System.Drawing.Point(340, 172);
             this.groupBox9.Name = "groupBox9";
             this.groupBox9.Size = new System.Drawing.Size(241, 74);
             this.groupBox9.TabIndex = 4;
             this.groupBox9.TabStop = false;
             this.groupBox9.Text = "Изменить гос номер";
-            this.groupBox9.UseWaitCursor = true;
             // 
             // button9
             // 
@@ -244,18 +242,17 @@ namespace Cars
             this.button9.TabIndex = 0;
             this.button9.Text = "Нажми меня";
             this.button9.UseVisualStyleBackColor = true;
-            this.button9.UseWaitCursor = true;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // groupBox10
             // 
             this.groupBox10.Controls.Add(this.button10);
-            this.groupBox10.Location = new System.Drawing.Point(340, 327);
+            this.groupBox10.Location = new System.Drawing.Point(340, 435);
             this.groupBox10.Name = "groupBox10";
             this.groupBox10.Size = new System.Drawing.Size(241, 74);
-            this.groupBox10.TabIndex = 5;
+            this.groupBox10.TabIndex = 4;
             this.groupBox10.TabStop = false;
-            this.groupBox10.Text = "Справка о неисправности";
-            this.groupBox10.UseWaitCursor = true;
+            this.groupBox10.Text = "Отчет о работе";
             // 
             // button10
             // 
@@ -265,18 +262,16 @@ namespace Cars
             this.button10.TabIndex = 0;
             this.button10.Text = "Нажми меня";
             this.button10.UseVisualStyleBackColor = true;
-            this.button10.UseWaitCursor = true;
             // 
             // groupBox11
             // 
             this.groupBox11.Controls.Add(this.button11);
-            this.groupBox11.Location = new System.Drawing.Point(340, 407);
+            this.groupBox11.Location = new System.Drawing.Point(340, 355);
             this.groupBox11.Name = "groupBox11";
             this.groupBox11.Size = new System.Drawing.Size(241, 74);
-            this.groupBox11.TabIndex = 6;
+            this.groupBox11.TabIndex = 4;
             this.groupBox11.TabStop = false;
-            this.groupBox11.Text = "Отчет о работе";
-            this.groupBox11.UseWaitCursor = true;
+            this.groupBox11.Text = "Справка о неисправности";
             // 
             // button11
             // 
@@ -286,7 +281,7 @@ namespace Cars
             this.button11.TabIndex = 0;
             this.button11.Text = "Нажми меня";
             this.button11.UseVisualStyleBackColor = true;
-            this.button11.UseWaitCursor = true;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
             // Form1
             // 

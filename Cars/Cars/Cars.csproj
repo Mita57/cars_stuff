@@ -52,6 +52,12 @@
     <Compile Include="AddOwnerInfo.Designer.cs">
       <DependentUpon>AddOwnerInfo.cs</DependentUpon>
     </Compile>
+    <Compile Include="ChangeNumber.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChangeNumber.Designer.cs">
+      <DependentUpon>ChangeNumber.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -88,6 +94,12 @@
     <Compile Include="GetServicesByOwner.Designer.cs">
       <DependentUpon>GetServicesByOwner.cs</DependentUpon>
     </Compile>
+    <Compile Include="MalfunctionCertificate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MalfunctionCertificate.Designer.cs">
+      <DependentUpon>MalfunctionCertificate.cs</DependentUpon>
+    </Compile>
     <Compile Include="OwnersByMalfunctions.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -96,8 +108,17 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RemoveEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RemoveEmployee.Designer.cs">
+      <DependentUpon>RemoveEmployee.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="AddOwnerInfo.resx">
       <DependentUpon>AddOwnerInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChangeNumber.resx">
+      <DependentUpon>ChangeNumber.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -117,6 +138,9 @@
     <EmbeddedResource Include="GetServicesByOwner.resx">
       <DependentUpon>GetServicesByOwner.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="MalfunctionCertificate.resx">
+      <DependentUpon>MalfunctionCertificate.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="OwnersByMalfunctions.resx">
       <DependentUpon>OwnersByMalfunctions.cs</DependentUpon>
     </EmbeddedResource>
@@ -128,7 +152,11 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="RemoveEmployee.resx">
+      <DependentUpon>RemoveEmployee.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -141,6 +169,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Chris_Hemsworth_Signature.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
