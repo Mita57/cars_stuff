@@ -36,27 +36,28 @@ namespace Cars
             this.parentalField = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.addressField = new System.Windows.Forms.TextBox();
+            this.label13 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.employeeLabel = new System.Windows.Forms.Label();
+            this.malfunctionLabel = new System.Windows.Forms.Label();
+            this.yearLabel = new System.Windows.Forms.Label();
+            this.numberLabel = new System.Windows.Forms.Label();
+            this.modelLabel = new System.Windows.Forms.Label();
+            this.ownerLabel = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.malfunctionCB = new System.Windows.Forms.ComboBox();
             this.employeesCB = new System.Windows.Forms.ComboBox();
             this.button1 = new System.Windows.Forms.Button();
-            this.label12 = new System.Windows.Forms.Label();
-            this.ownerLabel = new System.Windows.Forms.Label();
-            this.modelLabel = new System.Windows.Forms.Label();
-            this.numberLabel = new System.Windows.Forms.Label();
-            this.yearLabel = new System.Windows.Forms.Label();
-            this.malfunctionLabel = new System.Windows.Forms.Label();
-            this.employeeLabel = new System.Windows.Forms.Label();
-            this.addressField = new System.Windows.Forms.TextBox();
-            this.label13 = new System.Windows.Forms.Label();
             this.carField = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
             this.numberField = new System.Windows.Forms.TextBox();
@@ -64,7 +65,6 @@ namespace Cars
             this.yearField = new System.Windows.Forms.TextBox();
             this.label16 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.panel2 = new System.Windows.Forms.Panel();
             this.groupBox1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -138,6 +138,23 @@ namespace Cars
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Владелец";
             // 
+            // addressField
+            // 
+            this.addressField.Location = new System.Drawing.Point(87, 74);
+            this.addressField.Name = "addressField";
+            this.addressField.Size = new System.Drawing.Size(755, 22);
+            this.addressField.TabIndex = 8;
+            this.addressField.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(11, 74);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(48, 17);
+            this.label13.TabIndex = 7;
+            this.label13.Text = "Адрес";
+            // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
@@ -161,42 +178,79 @@ namespace Cars
             this.panel1.TabIndex = 8;
             this.panel1.Visible = false;
             // 
-            // label4
+            // panel2
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(255, 11);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(358, 24);
-            this.label4.TabIndex = 0;
-            this.label4.Text = "Справка о неисправности автомобиля";
+            this.panel2.BackgroundImage = global::Cars.Properties.Resources.Chris_Hemsworth_Signature;
+            this.panel2.Location = new System.Drawing.Point(545, 81);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(295, 175);
+            this.panel2.TabIndex = 0;
             // 
-            // label5
+            // employeeLabel
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(11, 82);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(66, 17);
-            this.label5.TabIndex = 1;
-            this.label5.Text = "Модель: ";
+            this.employeeLabel.AutoSize = true;
+            this.employeeLabel.Location = new System.Drawing.Point(95, 242);
+            this.employeeLabel.Name = "employeeLabel";
+            this.employeeLabel.Size = new System.Drawing.Size(0, 17);
+            this.employeeLabel.TabIndex = 12;
             // 
-            // label6
+            // malfunctionLabel
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(11, 113);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(84, 17);
-            this.label6.TabIndex = 2;
-            this.label6.Text = "Гос номер: ";
+            this.malfunctionLabel.AutoSize = true;
+            this.malfunctionLabel.Location = new System.Drawing.Point(125, 210);
+            this.malfunctionLabel.Name = "malfunctionLabel";
+            this.malfunctionLabel.Size = new System.Drawing.Size(0, 17);
+            this.malfunctionLabel.TabIndex = 11;
             // 
-            // label7
+            // yearLabel
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(11, 143);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(98, 17);
-            this.label7.TabIndex = 3;
-            this.label7.Text = "Год выпуска: ";
+            this.yearLabel.AutoSize = true;
+            this.yearLabel.Location = new System.Drawing.Point(105, 145);
+            this.yearLabel.Name = "yearLabel";
+            this.yearLabel.Size = new System.Drawing.Size(0, 17);
+            this.yearLabel.TabIndex = 10;
+            // 
+            // numberLabel
+            // 
+            this.numberLabel.AutoSize = true;
+            this.numberLabel.Location = new System.Drawing.Point(91, 115);
+            this.numberLabel.Name = "numberLabel";
+            this.numberLabel.Size = new System.Drawing.Size(0, 17);
+            this.numberLabel.TabIndex = 9;
+            // 
+            // modelLabel
+            // 
+            this.modelLabel.AutoSize = true;
+            this.modelLabel.Location = new System.Drawing.Point(75, 83);
+            this.modelLabel.Name = "modelLabel";
+            this.modelLabel.Size = new System.Drawing.Size(0, 17);
+            this.modelLabel.TabIndex = 8;
+            // 
+            // ownerLabel
+            // 
+            this.ownerLabel.AutoSize = true;
+            this.ownerLabel.Location = new System.Drawing.Point(86, 56);
+            this.ownerLabel.Name = "ownerLabel";
+            this.ownerLabel.Size = new System.Drawing.Size(0, 17);
+            this.ownerLabel.TabIndex = 7;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(11, 55);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(77, 17);
+            this.label12.TabIndex = 6;
+            this.label12.Text = "Владелец:";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(11, 240);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(86, 17);
+            this.label9.TabIndex = 5;
+            this.label9.Text = "Устраняет: ";
             // 
             // label8
             // 
@@ -207,14 +261,42 @@ namespace Cars
             this.label8.TabIndex = 4;
             this.label8.Text = "Неисправность: ";
             // 
-            // label9
+            // label7
             // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(11, 240);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(86, 17);
-            this.label9.TabIndex = 5;
-            this.label9.Text = "Устраняет: ";
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(11, 143);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(98, 17);
+            this.label7.TabIndex = 3;
+            this.label7.Text = "Год выпуска: ";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(11, 113);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(84, 17);
+            this.label6.TabIndex = 2;
+            this.label6.Text = "Гос номер: ";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(11, 82);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(66, 17);
+            this.label5.TabIndex = 1;
+            this.label5.Text = "Модель: ";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(255, 11);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(358, 24);
+            this.label4.TabIndex = 0;
+            this.label4.Text = "Справка о неисправности автомобиля";
             // 
             // label10
             // 
@@ -262,80 +344,6 @@ namespace Cars
             this.button1.Text = "Подготовить справку";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(11, 55);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(77, 17);
-            this.label12.TabIndex = 6;
-            this.label12.Text = "Владелец:";
-            // 
-            // ownerLabel
-            // 
-            this.ownerLabel.AutoSize = true;
-            this.ownerLabel.Location = new System.Drawing.Point(86, 56);
-            this.ownerLabel.Name = "ownerLabel";
-            this.ownerLabel.Size = new System.Drawing.Size(0, 17);
-            this.ownerLabel.TabIndex = 7;
-            // 
-            // modelLabel
-            // 
-            this.modelLabel.AutoSize = true;
-            this.modelLabel.Location = new System.Drawing.Point(75, 83);
-            this.modelLabel.Name = "modelLabel";
-            this.modelLabel.Size = new System.Drawing.Size(0, 17);
-            this.modelLabel.TabIndex = 8;
-            // 
-            // numberLabel
-            // 
-            this.numberLabel.AutoSize = true;
-            this.numberLabel.Location = new System.Drawing.Point(91, 115);
-            this.numberLabel.Name = "numberLabel";
-            this.numberLabel.Size = new System.Drawing.Size(0, 17);
-            this.numberLabel.TabIndex = 9;
-            // 
-            // yearLabel
-            // 
-            this.yearLabel.AutoSize = true;
-            this.yearLabel.Location = new System.Drawing.Point(105, 145);
-            this.yearLabel.Name = "yearLabel";
-            this.yearLabel.Size = new System.Drawing.Size(0, 17);
-            this.yearLabel.TabIndex = 10;
-            // 
-            // malfunctionLabel
-            // 
-            this.malfunctionLabel.AutoSize = true;
-            this.malfunctionLabel.Location = new System.Drawing.Point(125, 210);
-            this.malfunctionLabel.Name = "malfunctionLabel";
-            this.malfunctionLabel.Size = new System.Drawing.Size(0, 17);
-            this.malfunctionLabel.TabIndex = 11;
-            // 
-            // employeeLabel
-            // 
-            this.employeeLabel.AutoSize = true;
-            this.employeeLabel.Location = new System.Drawing.Point(95, 242);
-            this.employeeLabel.Name = "employeeLabel";
-            this.employeeLabel.Size = new System.Drawing.Size(0, 17);
-            this.employeeLabel.TabIndex = 12;
-            // 
-            // addressField
-            // 
-            this.addressField.Location = new System.Drawing.Point(87, 74);
-            this.addressField.Name = "addressField";
-            this.addressField.Size = new System.Drawing.Size(755, 22);
-            this.addressField.TabIndex = 8;
-            this.addressField.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(11, 74);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(48, 17);
-            this.label13.TabIndex = 7;
-            this.label13.Text = "Адрес";
             // 
             // carField
             // 
@@ -400,14 +408,6 @@ namespace Cars
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Автомобиль";
             // 
-            // panel2
-            // 
-            this.panel2.BackgroundImage = global::Cars.Properties.Resources.Chris_Hemsworth_Signature;
-            this.panel2.Location = new System.Drawing.Point(545, 81);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(295, 175);
-            this.panel2.TabIndex = 0;
-            // 
             // MalfunctionCertificate
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -422,7 +422,7 @@ namespace Cars
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.groupBox1);
             this.Name = "MalfunctionCertificate";
-            this.Text = "MalfunctionCertificate";
+            this.Text = "Справка о неисправности";
             this.Load += new System.EventHandler(this.MalfunctionCertificate_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

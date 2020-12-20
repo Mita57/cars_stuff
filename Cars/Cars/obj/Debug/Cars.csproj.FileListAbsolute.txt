@@ -18,3 +18,4 @@ C:\Users\57thr\Documents\GitHub\cars_stuff\Cars\Cars\obj\Debug\Cars.AddOwnerInfo
 C:\Users\57thr\Documents\GitHub\cars_stuff\Cars\Cars\obj\Debug\Cars.RemoveEmployee.resources
 C:\Users\57thr\Documents\GitHub\cars_stuff\Cars\Cars\obj\Debug\Cars.ChangeNumber.resources
 C:\Users\57thr\Documents\GitHub\cars_stuff\Cars\Cars\obj\Debug\Cars.MalfunctionCertificate.resources
+C:\Users\57thr\Documents\GitHub\cars_stuff\Cars\Cars\obj\Debug\Cars.Report.resources

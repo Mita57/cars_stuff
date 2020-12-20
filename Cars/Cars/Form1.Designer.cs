@@ -262,6 +262,7 @@ namespace Cars
             this.button10.TabIndex = 0;
             this.button10.Text = "Нажми меня";
             this.button10.UseVisualStyleBackColor = true;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
             // groupBox11
             // 

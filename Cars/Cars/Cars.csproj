@@ -114,6 +114,12 @@
     <Compile Include="RemoveEmployee.Designer.cs">
       <DependentUpon>RemoveEmployee.cs</DependentUpon>
     </Compile>
+    <Compile Include="Report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report.Designer.cs">
+      <DependentUpon>Report.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="AddOwnerInfo.resx">
       <DependentUpon>AddOwnerInfo.cs</DependentUpon>
     </EmbeddedResource>
@@ -156,6 +162,9 @@
     </Compile>
     <EmbeddedResource Include="RemoveEmployee.resx">
       <DependentUpon>RemoveEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report.resx">
+      <DependentUpon>Report.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

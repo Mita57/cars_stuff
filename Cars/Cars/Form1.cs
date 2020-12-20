@@ -77,5 +77,11 @@ namespace Cars
             MalfunctionCertificate sas = new MalfunctionCertificate();
             sas.Show();
         }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            Report sas = new Report();
+            sas.Show();
+        }
     }
 }
