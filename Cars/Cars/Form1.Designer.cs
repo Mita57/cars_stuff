@@ -162,6 +162,7 @@ namespace Cars
             this.button5.TabIndex = 0;
             this.button5.Text = "Нажми меня";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // groupBox6
             // 
@@ -181,6 +182,7 @@ namespace Cars
             this.button6.TabIndex = 0;
             this.button6.Text = "Нажми меня";
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // groupBox7
             // 
@@ -190,7 +192,7 @@ namespace Cars
             this.groupBox7.Size = new System.Drawing.Size(241, 74);
             this.groupBox7.TabIndex = 2;
             this.groupBox7.TabStop = false;
-            this.groupBox7.Text = "Изменить машины";
+            this.groupBox7.Text = "Добавить инфу о владельце автомобиля";
             // 
             // button7
             // 
@@ -200,6 +202,7 @@ namespace Cars
             this.button7.TabIndex = 0;
             this.button7.Text = "Нажми меня";
             this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // groupBox8
             // 
@@ -209,7 +212,7 @@ namespace Cars
             this.groupBox8.Size = new System.Drawing.Size(241, 74);
             this.groupBox8.TabIndex = 3;
             this.groupBox8.TabStop = false;
-            this.groupBox8.Text = "Изменить владельцев";
+            this.groupBox8.Text = "Удалить работника";
             this.groupBox8.UseWaitCursor = true;
             // 
             // button8
@@ -230,7 +233,7 @@ namespace Cars
             this.groupBox9.Size = new System.Drawing.Size(241, 74);
             this.groupBox9.TabIndex = 4;
             this.groupBox9.TabStop = false;
-            this.groupBox9.Text = "Изменить сотрудников";
+            this.groupBox9.Text = "Изменить гос номер";
             this.groupBox9.UseWaitCursor = true;
             // 
             // button9
@@ -246,7 +249,7 @@ namespace Cars
             // groupBox10
             // 
             this.groupBox10.Controls.Add(this.button10);
-            this.groupBox10.Location = new System.Drawing.Point(340, 272);
+            this.groupBox10.Location = new System.Drawing.Point(340, 327);
             this.groupBox10.Name = "groupBox10";
             this.groupBox10.Size = new System.Drawing.Size(241, 74);
             this.groupBox10.TabIndex = 5;
@@ -267,7 +270,7 @@ namespace Cars
             // groupBox11
             // 
             this.groupBox11.Controls.Add(this.button11);
-            this.groupBox11.Location = new System.Drawing.Point(340, 352);
+            this.groupBox11.Location = new System.Drawing.Point(340, 407);
             this.groupBox11.Name = "groupBox11";
             this.groupBox11.Size = new System.Drawing.Size(241, 74);
             this.groupBox11.TabIndex = 6;
@@ -289,7 +292,7 @@ namespace Cars
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(641, 521);
+            this.ClientSize = new System.Drawing.Size(608, 521);
             this.Controls.Add(this.groupBox11);
             this.Controls.Add(this.groupBox10);
             this.Controls.Add(this.groupBox9);

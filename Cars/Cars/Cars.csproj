@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddOwnerInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddOwnerInfo.Designer.cs">
+      <DependentUpon>AddOwnerInfo.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -70,14 +76,29 @@
     <Compile Include="GetOwnerByNumber.Designer.cs">
       <DependentUpon>GetOwnerByNumber.cs</DependentUpon>
     </Compile>
+    <Compile Include="GetServicesByEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GetServicesByEmployee.Designer.cs">
+      <DependentUpon>GetServicesByEmployee.cs</DependentUpon>
+    </Compile>
     <Compile Include="GetServicesByOwner.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="GetServicesByOwner.Designer.cs">
       <DependentUpon>GetServicesByOwner.cs</DependentUpon>
     </Compile>
+    <Compile Include="OwnersByMalfunctions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OwnersByMalfunctions.Designer.cs">
+      <DependentUpon>OwnersByMalfunctions.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AddOwnerInfo.resx">
+      <DependentUpon>AddOwnerInfo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -90,8 +111,14 @@
     <EmbeddedResource Include="GetOwnerByNumber.resx">
       <DependentUpon>GetOwnerByNumber.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="GetServicesByEmployee.resx">
+      <DependentUpon>GetServicesByEmployee.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GetServicesByOwner.resx">
       <DependentUpon>GetServicesByOwner.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OwnersByMalfunctions.resx">
+      <DependentUpon>OwnersByMalfunctions.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

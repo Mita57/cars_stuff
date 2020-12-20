@@ -40,5 +40,23 @@ namespace Cars
             GetEmployeeByService sas = new GetEmployeeByService();
             sas.Show();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            GetServicesByEmployee sas = new GetServicesByEmployee();
+            sas.Show();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            OwnersByMalfunctions sas = new OwnersByMalfunctions();
+            sas.Show();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            AddOwnerInfo sas = new AddOwnerInfo();
+            sas.Show();
+        }
     }
 }

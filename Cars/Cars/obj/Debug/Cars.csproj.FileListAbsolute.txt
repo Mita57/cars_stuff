@@ -12,3 +12,6 @@ C:\Users\57thr\Documents\GitHub\cars_stuff\Cars\Cars\obj\Debug\Cars.pdb
 C:\Users\57thr\Documents\GitHub\cars_stuff\Cars\Cars\obj\Debug\Cars.GetCarByOwner.resources
 C:\Users\57thr\Documents\GitHub\cars_stuff\Cars\Cars\obj\Debug\Cars.GetServicesByOwner.resources
 C:\Users\57thr\Documents\GitHub\cars_stuff\Cars\Cars\obj\Debug\Cars.GetEmployeeByService.resources
+C:\Users\57thr\Documents\GitHub\cars_stuff\Cars\Cars\obj\Debug\Cars.GetServicesByEmployee.resources
+C:\Users\57thr\Documents\GitHub\cars_stuff\Cars\Cars\obj\Debug\Cars.OwnersByMalfunctions.resources
+C:\Users\57thr\Documents\GitHub\cars_stuff\Cars\Cars\obj\Debug\Cars.AddOwnerInfo.resources

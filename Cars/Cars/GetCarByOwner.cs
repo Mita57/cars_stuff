@@ -22,7 +22,7 @@ namespace Cars
 
         private void surnameField_TextChanged(object sender, EventArgs e)
         {
-            if (!string.IsNullOrEmpty(this.surnameField.Text) && !string.IsNullOrEmpty(this.nameField.Text))
+            if (!string.IsNullOrWhiteSpace(this.surnameField.Text) && !string.IsNullOrWhiteSpace(this.nameField.Text))
             {
                 this.button1.Enabled = true;
             }
